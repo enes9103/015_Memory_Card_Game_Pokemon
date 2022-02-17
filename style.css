@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./backround-image-pokemon/backround-image.jpg);
+    background-repeat : no-repeat;
+    background-position : center;
+    background-size:cover;
+}
+
+.container {
+    width: 32rem;
+    margin: 3rem auto 0rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    
+}
+.container2{
+    width: 32rem;
+    height: 34rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: -33.7rem auto ;
+
+}
+.items{
+    border: 1px black solid;
+    height: 8rem;
+    width: 7rem;
+    border-radius: 10px;
+    border: none;
+    background-repeat : no-repeat;
+    background-position : center;
+    background-size:cover;
+}
+.box{
+    border: 1px black solid;
+    height: 8rem;
+    width: 7rem;
+    border-radius: 10px;
+    background-image: url(./backround-image-pokemon/cover-image.png);
+    background-repeat : no-repeat;
+    background-position : center;
+    background-size:cover;
+    opacity: 1;
+    z-index: 1;
+}
+
+.buttons button{
+    margin-left: 33.2%;
+    margin-top: 34rem;
+    width: 31.5rem;
+    height: 4rem;
+    border-radius: 10px;
+    background-color: #817CA8;
+    font-size: 1.3rem;
+    opacity: 0.8;
+
+
+}
+.buttons button:hover{
+    background-color: #101D43;
+    color: wheat;
+    opacity: 0.3;
+    font-size: 0.01px;
+    background-image: url(./backround-image-pokemon/button-image.png);
+    background-repeat : no-repeat;
+    background-position : center;
+    background-size:100%;
+}
+
+.pokemon1 {
+    width: 6.5rem;
+    height: 7.5rem;
+    padding-top: 0.5rem;
+}
+
+.opening {
+    visibility: hidden;
+}
+.nothing {
+    visibility: hidden;
+}
+
+.item1,.item5, .item9, .item13 {
+    margin-left: 0rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem  auto;
+}
